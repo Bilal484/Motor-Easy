@@ -154,6 +154,17 @@ textarea:-webkit-autofill:focus {
     background-blend-mode: multiply;
 
 }
+.main-banner-service{
+    background-image: url("/assets/images/car_service_1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 600px;
+    width: auto;
+    background-size: cover;
+    background-color: rgb(82, 78, 78, 0.8);
+    background-blend-mode: multiply;
+
+}
 
 .emergency-section {
     background: var(--primary-color);
@@ -398,6 +409,23 @@ textarea:-webkit-autofill:focus {
             justify-content: center;
             align-items: center;
         }
+    }
+    .main-banner{
+        height: 850px;
+        padding-top: 10px;
+    }
+    .contact-us{
+        padding: 10px 10px;
+
+    }
+    .main-banner-inception{
+        height: 850px;
+        padding: 10px;
+    }
+    .main-banner-service{
+        height: 850px;
+        padding: 10px;
+
     }
 
 }
