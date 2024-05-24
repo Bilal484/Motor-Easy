@@ -36,50 +36,6 @@ document.getElementById('about_us_section').style.display = 'block';
 
 
 // ////////////////////// Slider
-document.addEventListener('DOMContentLoaded', function () {
-    let carouselElement = document.querySelector('#carouselExample');
-    let carousel = new bootstrap.Carousel(carouselElement, {
-        interval: false
-    });
-
-    let items = carouselElement.querySelectorAll('.carousel-item');
-    let totalItems = items.length;
-    let currentIndex = 0;
-
-    function moveNext() {
-        let direction = 1; // 1 for next, -1 for previous
-        let nextIndex = (currentIndex + direction) % totalItems;
-
-        if (nextIndex < 0) {
-            nextIndex = totalItems - 1;
-        }
-
-        items[currentIndex].classList.remove('active');
-        items[nextIndex].classList.add('active');
-        currentIndex = nextIndex;
-    }
-
-    function movePrev() {
-        let direction = -1; // 1 for next, -1 for previous
-        let nextIndex = (currentIndex + direction) % totalItems;
-
-        if (nextIndex < 0) {
-            nextIndex = totalItems - 1;
-        }
-
-        items[currentIndex].classList.remove('active');
-        items[nextIndex].classList.add('active');
-        currentIndex = nextIndex;
-    }
-
-    carouselElement.querySelector('.carousel-control-next').addEventListener('click', function () {
-        moveNext();
-    });
-
-    carouselElement.querySelector('.carousel-control-prev').addEventListener('click', function () {
-        movePrev();
-    });
-});
 
 
 // ///////////////// Counter ////////////////////////
@@ -125,3 +81,5 @@ $(document).ready(function () {
     $(".service_button:first").trigger("click");
 });
 
+
+// //////////////// Blog Section /////////////
