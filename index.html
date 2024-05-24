@@ -87,7 +87,7 @@
                             <a href="#">Home </i></a>
                         </li>
                         <li class="nav-link" style="--i: 1.1s">
-                            <a href="#">About Us </i></a>
+                            <a href="/about_us.html">About Us </i></a>
                         </li>
                         <li class="nav-link" style="--i: 1.1s">
                             <a href="#"> Services <i class="fas fa-caret-down"></i></a>
@@ -906,13 +906,13 @@
                         </div>
                     </div>
                     <div class="col-lg-6 d-flex align-items-center justify-content-center">
-                        <img src="/assets/images/faq-image.png" alt="">
+                        <img src="/assets/images/faq-image.png" width="100%" alt="">
                     </div>
                 </div>
                 <!-- ---------- inner carousel -------- -->
                 <div class="row mt-5">
                     <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
-                        <div class="carousel-inner">
+                        <div class="carousel-inner d-none d-md-flex">
                             <div class="carousel-item active" style="background: none; border: none;">
                                 <img class="set_width_carousel" src="/assets/images/brand1.png" alt="">
                                 <img class="set_width_carousel" src="/assets/images/brand2.png" alt="">
@@ -936,6 +936,18 @@
                                 <img class="set_width_carousel" src="/assets/images/brand4.png" alt="">
                                 <img class="set_width_carousel" src="/assets/images/brand5.png" alt="">
                                 <img class="set_width_carousel" src="/assets/images/brand6.png" alt="">
+                            </div>
+                        </div>
+                        <!-- for mobile screen -->
+                        <div class="carousel-inner d-flex d-md-none">
+                            <div class="carousel-item active text-center " style="background: none; border: none;">
+                                <img class="set_width_carousel ms-0" src="/assets/images/brand1.png" alt="">
+                            </div>
+                            <div class="carousel-item text-center">
+                                <img class="set_width_carousel ms-0" src="/assets/images/brand1.png" alt="">
+                            </div>
+                            <div class="carousel-item text-center">
+                                <img class="set_width_carousel ms-0" src="/assets/images/brand6.png" alt="">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button"

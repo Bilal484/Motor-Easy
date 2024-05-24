@@ -237,8 +237,12 @@ a {
 }
 
 /* ************* Slider ************ */
+
+#image_section img{
+    width: 100%;
+}
 .carousel-item {
-    transition: transform 10s ease, opacity 10s ease !important;
+    transition: transform 2s ease, opacity 2s ease !important;
 }
 
 .carousel-inner {
