@@ -886,9 +886,11 @@ header {
 .two_side img {
     width: 90%;
 }
-.two_side h2{
+
+.two_side h2 {
     color: #04BAE0;
 }
+
 .feedback_portion_two i {
     font-size: 100px;
     color: #04BAE0;
@@ -898,6 +900,101 @@ header {
     font-size: 14px;
     margin-left: 10px;
     margin-top: 20px;
+}
+
+
+/* **************** Faq **************** */
+
+/* FAQs */
+.accordion {
+    background-color: var(--tertiary-color);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    margin: 10px 0;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+    background-color: rgb(233, 233, 233);
+    border: 1px dashed deepskyblue;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+@media (min-width:250px) and (max-width:531px) {
+    .service-detail {
+        .row img {
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+    }
+
+    .choose-section {
+        .row img {
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+}
+
+/* ************** inner carousel after FAQ ************** */
+.carousel-inner .carousel-item .set_width_carousel {
+    width: 136px;
+    margin-left: 60px;
+    background: none;
+}
+
+.carousel-control-prev {
+    background-color: #003a63;
+    color: #007bff;
+    width: 30px;
+    margin-top: 60px;
+    height: 30px;
+}
+.carousel-control-prev:hover{
+    background-color: #04BAE0;
+}
+.carousel-control-next {
+    background-color: #003a63;
+    color: #007bff;
+    width: 30px;
+    margin-top: 60px;
+    height: 30px;
+}
+.carousel-control-next:hover{
+    background-color: #04BAE0;
 }
 
 /* Footer */
