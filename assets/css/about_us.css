@@ -1,86 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
 /* ************ Top Header ************* */
-.top_header h6 {
-    font-size: 16px;
-    font-family: sans-serif;
-}
 
-header nav {
-    background-color: white;
-}
 
 /* ****************** header **************** */
-@media all and (min-width: 992px) {
-    .navbar .nav-item .dropdown-menu {
-        display: none;
-    }
 
-    .navbar .nav-item:hover .nav-link {}
 
-    .navbar .nav-item:hover .dropdown-menu {
-        display: block;
-    }
-
-    .navbar .nav-item .dropdown-menu {
-        margin-top: 0;
-    }
-}
-
-.collapse .navbar-nav li {
-    padding: 0px 0px 0px 30px;
-    font-size: 18px;
-    font-weight: 600;
-    color: #62869f;
-}
-
-.collapse .navbar-nav li a:hover {
-    color: #2bace7;
-}
-
-.collapse .navbar-nav button {
-    padding: 12px;
-    border-radius: 7px;
-    border: none;
-    background-color: #2bace7;
-    color: white;
-}
-
-.collapse .navbar-nav button:hover {
-    background-color: #62869f;
-    color: white;
-    transition: 1s;
-}
-
-.nav-item .dropdown-menu li {
-    padding: 2px;
-}
-
-.navbar {
-    background-color: transparent;
-    transition: background-color 0.3s ease;
-}
-
-/* Navbar style after scrolling */
-.navbar.scrolled {
-    background-color: #f8f9fa;
-    /* Change to your desired color */
-}
-
-/* Ensure the navbar toggler icon is visible on all backgrounds */
-.navbar-toggler-icon {
-    color: black;
-    /* Adjust based on your preference */
-}
-
-/* Optional: Adjust the button style */
-.navbar button {
-    background-color: transparent;
-    border: none;
-    color: black;
-    font-size: 1.2em;
-    cursor: pointer;
-}
 
 /* /******************* main Section ******************/
 .about_us_bg_image {
@@ -213,11 +138,95 @@ header nav {
     border-radius: 10px;
     color: white;
     margin-left: 40px;
-    
+
 }
 
 .two_side_image .A_quote:hover {
     background-color: #2bace7;
     color: white;
     transition: 1s;
+}
+
+/* ************************* Discounts_section *********************** */
+
+.Discounts_section h1 {
+    color: #002e5a;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+
+
+}
+
+.Discounts_section h1 span {
+    color: #2bace7;
+}
+
+.Discounts_section h6 {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+/* ************** Counter *************** */
+.counter-box span {
+    font-size: 55px;
+    font-weight: bold;
+    position: relative;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-family: "Rajdhani", sans-serif;
+
+}
+
+.counter-box h3 {
+    color: #002e5a;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.counter-box {
+    position: relative;
+    bottom: 10rem;
+}
+
+.counter {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.counter {
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+.counter-box_1 .container{
+    background-color: #007bff;
+    color: white;
+    height: 245px;
+    border: 15px solid #98bcd1;
+    border-radius: 10px;
+}
+.counter-box_1 .container .four{
+    margin-top: 80px;
+}
+@media (min-width:425px){
+    /* .counter-box span {
+        color: black;
+    }
+    .counter-box .counter{
+        color: black;
+    } */
+    /* .counter-box_1 .container{
+        height: 961px;
+    } */
+    /* .counter-box_1 .container .four{
+        margin-top: 0px !important;
+    } */
 }
