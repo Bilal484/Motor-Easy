@@ -15,17 +15,21 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 .about_us_bg_image h5 {
     color: white;
     font-size: 23px;
-    font-weight: 600;
+    font-weight: 700;
+    font-family: "Rajdhani", sans-serif;
+
 }
 
 .about_us_bg_image p {
     color: white;
     font-size: 13px;
+    
 }
 
 /* *********************** Card Section ******************* */
@@ -206,17 +210,20 @@
     text-align: center;
     display: inline-block;
 }
-.counter-box_1 .container{
+
+.counter-box_1 .container {
     background-color: #007bff;
     color: white;
     height: 245px;
     border: 15px solid #98bcd1;
     border-radius: 10px;
 }
-.counter-box_1 .container .four{
+
+.counter-box_1 .container .four {
     margin-top: 80px;
 }
-@media (min-width:425px){
+
+@media (min-width:425px) {
     /* .counter-box span {
         color: black;
     }
@@ -229,4 +236,124 @@
     /* .counter-box_1 .container .four{
         margin-top: 0px !important;
     } */
+}
+
+/* ********************* GET A FREE ESTIMATE ******************/
+.FREE_ESTIMATE h6 {
+    color: #007bff;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+
+.FREE_ESTIMATE h2 {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    color: black;
+    margin-left: 30px;
+
+}
+
+.FREE_ESTIMATE h2 span {
+    color: #007bff;
+}
+
+.FREE_ESTIMATE p {
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+/* ********************* GET_IN_TOUCH_Carousel ************* */
+.GET_IN_TOUCH_Carousel img {
+    width: 50%;
+    border: 3px dotted #002e5a;
+    padding: 10px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.GET_IN_TOUCH_Carousel .card {
+    background: none;
+
+}
+
+.GET_IN_TOUCH_Carousel .card h3 {
+    color: #002e5a;
+    font-size: 21px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    margin-top: -40px;
+}
+
+.GET_IN_TOUCH_Carousel .card h3:hover {
+    color: #007bff;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.GET_IN_TOUCH_Carousel .card p {
+    font-size: 14px;
+    color: #002e5a;
+    font-weight: 500;
+}
+
+.GET_IN_TOUCH_Carousel i {
+    font-size: 40px;
+    border: 3px solid white;
+    position: relative;
+    bottom: 3rem;
+    background-color: #003a63;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.GET_IN_TOUCH_Carousel i:hover {
+    background-color: #007bff;
+    transition: 1s;
+}
+
+/* ********************* Last Portion ***************  */
+.about_last_portion {
+    background-image: url(/assets/images/milesim-bg.jpg);
+    width: 100%;
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.about_last_portion .Newsletter_email input {
+    padding: 20px;
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+    color: rgb(120, 116, 116);
+    background-color: white;
+    margin: 0 auto;
+    outline: none;
+}
+
+.about_last_portion .Newsletter_email button {
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    width: 150px;
+    position: relative;
+    right: 9rem;
+}
+
+.about_last_portion .Newsletter h1 {
+    color: white;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
 }
