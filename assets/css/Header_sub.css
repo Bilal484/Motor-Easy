@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+/* ************ Top Header ************* */
+.top_header h6 {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+header nav {
+    background-color: white;
+}
+
+/* ****************** header **************** */
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+
+    .navbar .nav-item:hover .nav-link {}
+
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
+}
+
+.collapse .navbar-nav li {
+    padding: 0px 0px 0px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #62869f;
+}
+
+.collapse .navbar-nav li a:hover {
+    color: #2bace7;
+}
+
+.collapse .navbar-nav button {
+    padding: 12px;
+    border-radius: 7px;
+    border: none;
+    background-color: #2bace7;
+    color: white;
+}
+
+.collapse .navbar-nav button:hover {
+    background-color: #62869f;
+    color: white;
+    transition: 1s;
+}
+
+.nav-item .dropdown-menu li {
+    padding: 2px;
+}
+
+.navbar {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+/* Navbar style after scrolling */
+.navbar.scrolled {
+    background-color: #f8f9fa;
+    /* Change to your desired color */
+}
+
+/* Ensure the navbar toggler icon is visible on all backgrounds */
+.navbar-toggler-icon {
+    color: black;
+    /* Adjust based on your preference */
+}
+
+/* Optional: Adjust the button style */
+.navbar button {
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 1.2em;
+    cursor: pointer;
+}
