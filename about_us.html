@@ -14,19 +14,18 @@
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/header_index.css">
+    <link rel="stylesheet" href="/assets/css/Header_sub.css">
     <link rel="stylesheet" href="/assets/css/about_us.css">
 </head>
 
 <body>
-
     <!-- =================== Top Header ============= -->
-    <nav class="top_header  d-none d-md-block" style="background-color: white; color:black;">
+    <nav class="top_header  d-none d-md-block" style="background-color: #2bace7; color:white;">
         <div class="conatiner-fluid">
             <div class="row p-3">
                 <div class="col-lg-6 d-flex flex-column">
                     <div class="d-flex flex-row justify-content-evenly ms-4 ">
-                        <h6>monday to fryday: 09am to 08pm </h6>
+                        <h6>Monday to Friday: 09am to 08pm </h6>
                         <h6>Info@Motoreasy.com.au</h6>
                     </div>
                     <div class="d-flex justify-content-center w-75 ">
@@ -49,15 +48,17 @@
         </div>
     </nav>
     <!-- ================== Header ================== -->
-    <header>
-        <nav class="navbar navbar-expand-lg p-4">
+    <header class="sticky-top top-0">
+        <nav class="navbar navbar-expand-lg p-3">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">Motor Easy</a>
+                <a class="navbar-brand" href="index.html">
+                    <h2 class="motor_easy_width">Motor Easy</h2>
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse d-flex justify-content-center text-end ms-5" id="main_nav">
+                <div class="collapse navbar-collapse " id="main_nav">
                     <ul class="navbar-nav">
                         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="about_us.html">About</a></li>
@@ -73,14 +74,22 @@
                                 <li><a class="dropdown-item" href="Windscreen-Repair.html">Windscreen Repair</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="#">Page</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Page</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="FAQs.html">FAQs</a></li>
+                                <li><a class="dropdown-item" href="Pricing.html">Pricing </a></li>
+                                <li><a class="dropdown-item" href="#">Testimonial </a>
+                                </li>
+                            </ul>
+                        </li>
                         <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact_us.html">Contact</a></li>
                         <li class="nav-item mt-2 ms-3 fs-2"><i class="fa fa-map-pin" aria-hidden="true"></i></li>
                         <li class="nav-item"><button class="ms-4">+92 311 6792100</button></li>
                     </ul>
-                </div> <!-- navbar-collapse.// -->
-            </div> <!-- container-fluid.// -->
+                </div>
+            </div>
         </nav>
     </header>
     <main>
@@ -151,7 +160,7 @@
                 <div class="conatiner">
                     <div class="row">
                         <div class="col-lg-6 col-md-12 d-flex flex-wrap justify-content-center">
-                            <img src="/assets/images/H3-about-img.jpg" alt="">
+                            <img src="/assets/images/H3-about-img.jpg" width="100%" alt="">
                         </div>
                         <div class="col-lg-6 two_side_image">
                             <div>
@@ -440,7 +449,7 @@
                 <div class="container">
                     <div class="row FREE_ESTIMATE mt-5 mb-5">
                         <div class="col-lg-6">
-                            <img src="/assets/images/H3-tab-img.png" alt="">
+                            <img src="/assets/images/H3-tab-img.png" width="100%" alt="">
                         </div>
                         <div class="col-lg-6 mt-5">
                             <h6>GET A FREE ESTIMATE</h6>
@@ -645,11 +654,13 @@
             </div>
             <!-- ================ Last Portion  ==============  -->
             <div class="container">
-                <div class="row about_last_portion">
-                    <div class="col-lg-6 Newsletter d-flex justify-content-center align-items-center">
+                <div class="row about_last_portion d-flex flex-wrap">
+                    <div
+                        class="col-lg-6 col-md-12 col-sm-12 Newsletter d-flex justify-content-center align-items-center">
                         <h1>Subscribe Our Newsletter</h1>
                     </div>
-                    <div class="col-lg-6 Newsletter_email  d-flex justify-content-center align-items-center flex-row">
+                    <div
+                        class="col-lg-6 col-md-12 col-sm-12 Newsletter_email  d-flex justify-content-center align-items-center flex-row">
                         <input type="text" placeholder="Email Address">
                         <button>Subscribe Now</button>
                     </div>
