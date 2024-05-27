@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
 /* Header  */
 
 * {
@@ -225,11 +227,12 @@ a {
     color: #007bff;
     font-size: 19px;
     font-weight: 500;
-    font-family: poppine;
+    font-family: "Rajdhani", sans-serif;
 }
 
 .Great_customer h3 {
     color: black;
+    font-family: "Rajdhani", sans-serif;
 }
 
 .Great_customer h3 span {
@@ -237,8 +240,13 @@ a {
 }
 
 /* ************* Slider ************ */
+
+#image_section img {
+    width: 100%;
+}
+
 .carousel-item {
-    transition: transform 10s ease, opacity 10s ease !important;
+    transition: transform 2s ease, opacity 2s ease !important;
 }
 
 .carousel-inner {
@@ -653,3 +661,4 @@ footer p {
 
     margin-top: -14rem;
 }
+

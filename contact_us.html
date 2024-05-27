@@ -14,18 +14,31 @@
     <link rel="stylesheet" href="/assets/css/contact_us.css">
     <link rel="stylesheet" href="assets/css/about_us.css">
     <script src="https://kit.fontawesome.com/3b161c540c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/header_index.css">
+
 
 </head>
 
 <body>
-    <!-- =================== Top Header ============= -->
-    <nav class="top_header" style="background-color: #2bace7; color: white;">
-        <div class="conatiner-fluid">
-            <div class="row p-3">
-                <div class="col-lg-6 d-flex flex-column">
-                    <div class="d-flex flex-row justify-content-evenly ms-4 ">
-                        <h6>monday to fryday: 09am to 08pm </h6>
-                        <h6>Info@Motoreasy.com.au</h6>
+     <!-- ------------Top Header ----------------- -->
+     <section class="top_header">
+        <div class="main">
+            <div class="row d-flex flex-row  justify-content-center align-items-center">
+                <div class="col-lg-3 col-md-6 col-sm-6 company_logo">
+                     <a href="/index.html"><h2 style="color: #04BAE0;">Motor Easy</h2></a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 g-0">
+                    <div class="row d-flex flex-row">
+                        <div class="col-md-2 icons   d-flex align-items-center justify-content-center">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="col-md-9 p-2 mt-3 d-flex flex-column ">
+                            <h6>
+                                Address:
+                            </h6>
+                            <p>Brisbane, Canberra,<br>
+                                Melbourne, Sydney</p>
+                        </div>
                     </div>
                     <div class="d-flex justify-content-center w-75 ">
                         <h6 class="">Brisbane, Canberra, Melbourne, Sydney</h6>
@@ -45,43 +58,87 @@
                 </div>
             </div>
         </div>
-    </nav>
-    <!-- ================== Header ================== -->
+    </section>
+    <!-- ------------- Top Header end- -->
+    <!-- -------------  Header start- -->
     <header>
-        <nav class="navbar navbar-expand-lg p-4">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">Motor Easy</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse d-flex justify-content-center text-end ms-5" id="main_nav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about_us.html">About</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Services</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Used Car warranty</a></li>
-                                <li><a class="dropdown-item" href="service-inspection.html">vehicle inspection </a></li>
-                                <li><a class="dropdown-item" href="Vehicle-Service.html">Vehicle Service </a></li>
-                                <li><a class="dropdown-item" href="Road-side.html">Road side </a></li>
-                                <li><a class="dropdown-item" href="Battery-Replacement.html">Battery Replacement </a>
-                                </li>
-                                <li><a class="dropdown-item" href="Windscreen-Repair.html">Windscreen Repair</a></li>
-                            </ul>
+        <div class="main_header header-sticky top-0">
+            <div class="nav-btn">
+                <div class="nav-links">
+                    <ul>
+                        <li class="nav-link" style="--i: 1.1s">
+                            <a href="#">Home </i></a>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="#">Page</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact_us.html">Contact</a></li>
-                        <li class="nav-item mt-2 ms-3 fs-2"><i class="fa fa-map-pin" aria-hidden="true"></i></li>
-                        <li class="nav-item"><button class="ms-4">+92 311 6792100</button></li>
-                    </ul>
-                </div> <!-- navbar-collapse.// -->
-            </div> <!-- container-fluid.// -->
-        </nav>
+                        <li class="nav-link" style="--i: 1.1s">
+                            <a href="#">About Us </i></a>
+                        </li>
+                        <li class="nav-link" style="--i: 1.1s">
+                            <a href="#"> Services <i class="fas fa-caret-down"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="/Look For Services/car_services.html">Car Servicing</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="javascript:void(0)">Insurance Services</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="javascript:void(0)">Essential Service</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="javascript:void(0)">Business Service</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="/Look For Services/other_service.html">other service</a>
+                                    </li>
 
+                                    <!-- <div class="arrow"></div> -->
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-link" style="--i: 1.1s">
+                            <a href="#"> Pages <i class="fas fa-caret-down"></i></a>
+                            <div class="dropdown">
+                                <ul>
+
+                                    <li class="dropdown-link">
+                                        <a href="javascript:void(0)">Faq</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="javascript:void(0)">Testimonial</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="javascript:void(0)">Pricing</a>
+                                    </li>
+
+
+                                    <!-- <div class="arrow"></div> -->
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="nav-link" style="--i: 1.35s">
+                            <a href="#">Blog</a>
+                        </li>
+
+
+                        <li class="nav-link" style="--i: 1.35s">
+                            <a href="/contact_us.html">Contact Us</a>
+                        </li>
+                        <li class="nav-link ms-4 text-light" style="--i: 1.35s">
+                            <i class="fa fa-search mt-3"></i>
+                        </li>
+                    </ul>
+                </div>
+                <div class="log-sign" style="--i: 1.8s">
+                    <a href="/Sign_in.html" class="btn transparent">Log in</a>
+                    <a href="/Sign_up.html" class="btn solid">Sign up</a>
+                </div>
+            </div>
+        </div>
     </header>
+    <!---------------- Header End  ------------------->
+     <!----------------- main ---------------------->
     <main>
         <div class="container-fliud">
             <div class="row g-0">
