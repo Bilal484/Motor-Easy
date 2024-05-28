@@ -234,15 +234,15 @@
 }
 
 .main-blogs-section .postcard .postcard__tagbox .red.play:hover {
-  background: #bd150b;
+  background: #62869f;
 }
 
 .main-blogs-section .red .postcard__title:hover {
-  color: #bd150b;
+  color: #62869f;
 }
 
 .main-blogs-section .red .postcard__bar {
-  background-color: #bd150b;
+  background-color: #62869f;
 }
 
 .main-blogs-section .red::before {
