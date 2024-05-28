@@ -18,34 +18,36 @@
     <link rel="stylesheet" href="assets/css/Services.css" />
     <link rel="stylesheet" href="assets/css/about_us.css">
     <link rel="stylesheet" href="assets/css/Header_sub.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+
 
 
     <!-- <link rel="stylesheet" href="assets/FAQs.js"> -->
 </head>
 
 <body>
-   <!-- =================== Top Header ============= -->
-   <nav class="top_header  d-none d-md-block" style="background-color: #2bace7; color:white;">
-    <div class="conatiner-fluid">
-        <div class="row p-3">
-            <div class="col-lg-6 d-flex flex-column">
-                <div class="d-flex flex-row justify-content-evenly ms-4 ">
-                    <h6>Monday to Friday: 09am to 08pm </h6>
-                    <h6>Info@Motoreasy.com.au</h6>
+    <!-- =================== Top Header ============= -->
+    <nav class="top_header  d-none d-md-block" style="background-color: #2bace7; color:white;">
+        <div class="conatiner-fluid">
+            <div class="row p-3">
+                <div class="col-lg-6 d-flex flex-column">
+                    <div class="d-flex flex-row justify-content-evenly ms-4 ">
+                        <h6>Monday to Friday: 09am to 08pm </h6>
+                        <h6>Info@Motoreasy.com.au</h6>
+                    </div>
+                    <div class="d-flex justify-content-center w-75 ">
+                        <h6 class="">Brisbane, Canberra, Melbourne, Sydney</h6>
+                    </div>
                 </div>
-                <div class="d-flex justify-content-center w-75 ">
-                    <h6 class="">Brisbane, Canberra, Melbourne, Sydney</h6>
-                </div>
-            </div>
-            <div class="col-lg-5 d-flex text-end flex-row d-flex justify-content-end">
-                <div class="d-flex  flex-row justify-content-between gap-4 align-items-center ">
-                    <h6 class="mt-2">
-                        Follow Us
-                    </h6>
+                <div class="col-lg-5 d-flex text-end flex-row d-flex justify-content-end">
+                    <div class="d-flex  flex-row justify-content-between gap-4 align-items-center ">
+                        <h6 class="mt-2">
+                            Follow Us
+                        </h6>
 
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
 
                 </div>
             </div>
@@ -84,11 +86,11 @@
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="FAQs.html">FAQs</a></li>
                             <li><a class="dropdown-item" href="Pricing.html">Pricing </a></li>
-                            <li><a class="dropdown-item" href="#">Testimonial </a>
+                             <li><a class="dropdown-item" href="testimonial.html">Testimonial </a>
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Blogs.html">Blog</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact_us.html">Contact</a></li>
                     <li class="nav-item mt-2 ms-3 fs-2"><i class="fa fa-map-pin" aria-hidden="true"></i></li>
                     <li class="nav-item"><button class="ms-4">+92 311 6792100</button></li>
@@ -98,8 +100,71 @@
     </nav>
 </header>
     <main>
+        <!-- carousel -->
+        <div class="container-fluid">
+            <div class="row my-auto">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000"
+                            style="border: none; background: none;">
+                            <img src="/assets/images/other_service_11.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block my-auto">
+                                <div class="text-section">
+                                    <h6>Used Car Warranty</h6>
+                                    <p>Protect Your Investment with Our Comprehensive Warranty Plans</p>
+                                    <div>
+                                        <button class="read_more"> Read More</button>
+                                        <a href="contact_us.html"><button class="get_a_quote">Contact Us</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="10000">
+                            <img src="/assets/images/other_service_16.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h6>Used Car Warranty</h6>
+                                <p>Drive With Confidence with Our Reliable Warranty Services</p>
+                                <div>
+                                    <button class="read_more"> Read More</button>
+                                    <a href="contact_us.html"><button class="get_a_quote">Contact Us</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="10000">
+                            <img src="/assets/images/other_service_22.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h6>Used Car Warranty</h6>
+                                <p>Peace of Mind with Our Extensive Warranty Coverage</p>
+                                <div>
+                                    <button class="read_more"> Read More</button>
+                                    <a href="contact_us.html"><button class="get_a_quote">Contact Us</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev my-auto" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next my-auto" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
         <!-- main section -->
-        <div class="main-banner">
+        <!-- <div class="main-banner">
             <div class="container h-100">
                 <div class="row text-light align-items-center h-100">
                     <div class="col-lg-6 my-auto" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
@@ -146,7 +211,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- main section end -->
         <!-- Emergency support -->
         <div class="emergency-section mt-5 mb-5 ">
@@ -232,8 +297,14 @@
             <div class="container h-100">
                 <div class="row h-100 text-light">
                     <div class="col-lg-6 my-auto" data-aos="fade-down-left" data-aos-duration="1500">
-                        <!-- <img src="/assets/images/choose.png" alt="Image!" height="400px"> -->
-                        <h1>Video Will be Place Here!!!!!!!!!!!!!!!</h1>
+                        <!-- -------------- video section ----------- -->
+                        <div class="row">
+                            <iframe width="560" height="450"
+                                src="https://www.youtube.com/embed/BS4TUd7FJSg?si=vCM6niDT4XVKw5fm"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
                     </div>
                     <div class="col-lg-6 my-auto p-4" data-aos="fade-down-right" data-aos-duration="1500">
                         <h4>USED CAR WARRANTY SERVICES</h4>
@@ -381,92 +452,61 @@
 
     </main>
     <!-- Footer -->
-    <footer class="mt-5">
-        <div class="row">
-            <div class="col-lg-4 col-md-4">
-
-            </div>
-            <div class="col-lg-8 col-md-8 ">
-                <div class="row row d-flex flex-wrap">
-                    <div class="col-lg-4 list_link d-flex flex-column flex-wrap">
-                        <h5>Car Servicing & Repairs</h5>
-                        <a href="javascript:void(0)">Car Servicing</a>
-                        <a href="javascript:void(0)">Log Book Service</a>
-                        <a href="javascript:void(0)">Essential Service</a>
-                        <a href="javascript:void(0)">Other Services</a>
+    <footer class="mt-4">
+        <div class="container-fliud footer_header">
+            <div class="row p-5 d-flex flex-wrap ">
+                <div class="col-lg-2 ">
+                    <h3>About</h3>
+                    <div>
+                        <a href="about_us.html"> About Us</a>
                     </div>
-                    <div class="col-lg-4 col-md-6 g-0 mt-3 ">
-                        <div class="row flex-row g-0">
-                            <div class="col-sm-3 text-end">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </div>
-                            <div class="col-sm-8 ms-3">
-                                <a class="text_color_h5 text-decoration-underline" href="javascript:void(0)">
-                                    <h5>
-                                        Our Location</h5>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 g-0 mt-3 ">
-                        <div class="row flex-row g-0">
-                            <div class="col-sm-3 text-end">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </div>
-                            <div class="col-sm-8 ms-3">
-                                <a class="text_color_h5 text-decoration-underline" href="javascript:void(0)">
-                                    <h5>Insurance Services</h5>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="row row d-flex flex-wrap">
-                    <div class="col-lg-4 col-md-6 list_link d-flex flex-column">
-                        <h5>About Us</h5>
-                        <a href="javascript:void(0)">About MoterService</a>
-                        <a href="javascript:void(0)">Contact us</a>
-                        <a href="javascript:void(0)">Careers</a>
-                    </div>
-                    <div class="col-lg-4 col-md-6  g-0 mt-3 ">
-                        <div class="row flex-row g-0">
-                            <div class="col-sm-3 text-end">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </div>
-                            <div class="col-sm-8 ms-3">
-                                <a class="text_color_h5 text-decoration-underline" href="javascript:void(0)">
-                                    <h5>Book a Service</h5>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 list_link d-flex flex-column">
-                        <div class="ms-5 d-flex flex-column">
-                            <h5>Connect with us</h5>
-                            <a href="javascript:void(0)">Facebook</a>
-                            <a href="javascript:void(0)">Linkedin</a>
-                            <a href="javascript:void(0)">Instagram</a>
-                        </div>
+                    <div>
+                        <a href="contact_us.html"> Contant Us</a>
                     </div>
                 </div>
+                <div class="col-lg-3">
+                    <h3>Our Services</h3>
+                    <div class="d-flex flex-column flex-wrap">
+                        <a href="/service-car-warranty.html">Used Car warranty </a>
+                        <a href="/service-inspection.html">Vehicle inspection </a>
+                        <a href="Vehicle-Service.html">Vehicle Service </a>
+                        <a href="Road-side.html">Road Side </a>
+                        <a href="Battery-Replacement.html">Battery Replacement </a>
+                        <a href="Windscreen-Repair.html">Windscreen Repair </a>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <h3>
+                        Pages
+                    </h3>
+                    <div class="d-flex flex-column flex-wrap">
+                        <a href="FAQs.html">Faq</a>
+                        <a href="testimonial.html">Testimonial</a>
+                        <a href="Pricing.html">Pricing</a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <h3>Contact Info</h3>
+                    <ul class="list-unstyled">
+                        <li><strong>Address:</strong> 123 Motor St, Car City</li>
+                        <li><strong>Phone:</strong> (123) 456-7890</li>
+                        <li><strong>Email:</strong> info@motoreasy.com</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h3>
+                        Social
+                    </h3>
+                    <ul class="list-unstyled">
+                        <li><strong><i class="fa-brands fa-instagram"></i></strong> Instagram</li>
+                        <li><strong><i class="fa-brands fa-facebook"></i></strong> Facebook</li>
+                        <li><strong><i class="fa-brands fa-twitter"></i></strong>Twitter</li>
+                        <li><strong><i class="fa-brands fa-youtube"></i></strong>Youtube</li>
+                    </ul>
+                </div>
+
+
             </div>
-        </div>
-        <hr>
-        <div class="row d-flex flex-wrap">
-            <div class="col-lg-4  flex-wrap col-md-4 list_link  d-flex flex-column d-flex flex-column">
-                <a href="javascript:void(0)">Terms & Condition</a>
-                <a href="javascript:void(0)">Our Response </a>
-                <a href="javascript:void(0)">Privacy and Policy</a>
-            </div>
-            <div class="col-lg-8 col-md-8 flex-wrap list_link d-flex flex-column">
-                <a href="javascript:void(0)">^Terms and conditions apply and available here.</a>
-                <a href="javascript:void(0)">°Full warranty information available here</a>
-                <p>Motorserve Pty Ltd ABN 41 121 715 393, NSW license number MVRL43713, ACT license number 20000142 is
-                    an entity within the IAG group.</p>
-                <p>Motorserve holds a valid RTA number. License number: AU23814</p>
-            </div>
-        </div>
         </div>
     </footer>
     <!-- Bootstrap JavaScript Libraries -->

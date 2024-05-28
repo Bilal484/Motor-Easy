@@ -61,17 +61,28 @@
 
 .nav-item .dropdown-menu li {
     padding: 2px;
-    margin-bottom: 10px;
+    
+}
+.nav-item .dropdown-menu li:hover {
+    padding: 2px;
+    background-color: #002E5A;
+    border-radius: 4px;
+    
 }
 
 .navbar-nav .nav-item,
 .dropdown-menu .dropdown-link {
     transition: transform 0.3s ease;
 }
+.navbar-nav .nav-item,
+.dropdown-menu .dropdown-link:hover {
+    transition: transform 0.3s ease;
+}
 
 .navbar-nav .nav-item:hover {
     transform: scale(1.1);
     z-index: 100;
+    
 }
 
 .log-sign .btn-transparent {

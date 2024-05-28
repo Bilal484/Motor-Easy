@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="assets/css/Services.css" />
     <link rel="stylesheet" href="assets/css/about_us.css">
     <link rel="stylesheet" href="assets/css/Header_sub.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
 
 
     <!-- <link rel="stylesheet" href="assets/FAQs.js"> -->
@@ -84,11 +85,11 @@
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="FAQs.html">FAQs</a></li>
                                 <li><a class="dropdown-item" href="Pricing.html">Pricing </a></li>
-                                <li><a class="dropdown-item" href="#">Testimonial </a>
+                                 <li><a class="dropdown-item" href="testimonial.html">Testimonial </a>
                                 </li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Blogs.html">Blog</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact_us.html">Contact</a></li>
                         <li class="nav-item mt-2 ms-3 fs-2"><i class="fa fa-map-pin" aria-hidden="true"></i></li>
                         <li class="nav-item"><button class="ms-4">+92 311 6792100</button></li>
@@ -98,379 +99,451 @@
         </nav>
     </header>
     <main>
-        <!-- main section -->
-        <div class="main-banner-road-side">
-            <div class="container h-100">
-                <div class="row text-light align-items-center h-100">
-                    <div class="col-lg-6 my-auto" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
-                        <h2>ROADSIDE ASSISTANCE</h2>
-                        <p>
-                            Get Comprehensive, Reliable Roadside Assistance Coverage by Our
-                            Automotive Experts. We provide extensive, dependable, and
-                            beneficial assistance plans to protect your investment.
-                        </p>
-                        <a href="contact_us.html">View Detail <i class="fa-solid fa-greater-than"></i></a>
+        <!-- carousel -->
+        <div class="container-fluid">
+            <div class="row my-auto">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
                     </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000"
+                            style="border: none; background: none;">
+                            <img src="/assets/images/other_service_11.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block my-auto">
+                                <div class="text-section">
+                                    <h6>Roadside Assistance</h6>
+                                    <p>Get Help Anytime, Anywhere with Our 24/7 Roadside Assistance</p>
+                                    <div>
+                                        <button class="read_more"> Read More</button>
+                                        <a href="contact_us.html"><button class="get_a_quote">Contact Us</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="10000">
+                            <img src="/assets/images/other_service_16.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h6>Roadside Assistance</h6>
+                                <p>Reliable Support Whenever You Need It</p>
+                                <div>
+                                    <button class="read_more"> Read More</button>
+                                    <a href="contact_us.html"><button class="get_a_quote">Contact Us</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="10000">
+                            <img src="/assets/images/other_service_22.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h6>Roadside Assistance</h6>
+                                <p>Peace of Mind with Our Extensive Roadside Coverage</p>
+                                <div>
+                                    <button class="read_more"> Read More</button>
+                                    <a href="contact_us.html"><button class="get_a_quote">Contact Us</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev my-auto" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next my-auto" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="next">
+                        <span class="carousel-control
+        
+        <!-- main section -->
+        <!-- <div class=" main-banner-road-side">
+                            <div class="container h-100">
+                                <div class="row text-light align-items-center h-100">
+                                    <div class="col-lg-6 my-auto" data-aos="fade-up" data-aos-easing="linear"
+                                        data-aos-duration="1500">
+                                        <h2>ROADSIDE ASSISTANCE</h2>
+                                        <p>
+                                            Get Comprehensive, Reliable Roadside Assistance Coverage by Our
+                                            Automotive Experts. We provide extensive, dependable, and
+                                            beneficial assistance plans to protect your investment.
+                                        </p>
+                                        <a href="contact_us.html">View Detail <i
+                                                class="fa-solid fa-greater-than"></i></a>
+                                    </div>
 
-                    <div class="col-lg-6" data-aos="flip-left" data-aos-easing="ease-out-cubic"
-                        data-aos-duration="2000">
-                        <div class="contact-us">
-                            <form action="#" class="form">
-                                <label for="customerName">
-                                    NAME
-                                    <em>&#x2a;</em>
-                                </label>
-                                <input type="text" id="customerName" name="customerName" required>
+                                    <div class="col-lg-6" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                                        data-aos-duration="2000">
+                                        <div class="contact-us">
+                                            <form action="#" class="form">
+                                                <label for="customerName">
+                                                    NAME
+                                                    <em>&#x2a;</em>
+                                                </label>
+                                                <input type="text" id="customerName" name="customerName" required>
 
-                                <label for="customerEmail">
-                                    E-MAIL
-                                    <em>&#x2a;</em>
-                                </label>
-                                <input type="email" id="customerEmail" name="customerEmail" required>
+                                                <label for="customerEmail">
+                                                    E-MAIL
+                                                    <em>&#x2a;</em>
+                                                </label>
+                                                <input type="email" id="customerEmail" name="customerEmail" required>
 
-                                <label for="customerPhone">PHONE</label>
-                                <input type="tel" id="customerPhone" name="customerPhone"
-                                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                                                <label for="customerPhone">PHONE</label>
+                                                <input type="tel" id="customerPhone" name="customerPhone"
+                                                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
 
-                                <label for="orderNumber">ORDER NUMBER</label>
-                                <input type="text" id="orderNumber" name="orderNumber">
+                                                <label for="orderNumber">ORDER NUMBER</label>
+                                                <input type="text" id="orderNumber" name="orderNumber">
 
-                                <label for="customerNote">
-                                    YOUR MESSAGE
-                                    <em>&#x2a;</em>
-                                </label>
-                                <textarea rows="4" id="customerNote" name="customerNote" required></textarea>
-                                <button id="customerOrder" class="rounded-5 px-3 py-1 mt-2 button ">SUBMIT</button>
-                            </form>
+                                                <label for="customerNote">
+                                                    YOUR MESSAGE
+                                                    <em>&#x2a;</em>
+                                                </label>
+                                                <textarea rows="4" id="customerNote" name="customerNote"
+                                                    required></textarea>
+                                                <button id="customerOrder"
+                                                    class="rounded-5 px-3 py-1 mt-2 button ">SUBMIT</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                </div> -->
+
+                <!-- main section end -->
+                <!-- Emergency support -->
+                <div class="emergency-section mt-5 mb-5 ">
+                    <div class="container h-100">
+                        <div class="row h-100">
+                            <div class="col-lg-4 text-light my-auto text-end " data-aos="fade-right"
+                                data-aos-duration="1500">
+                                <i class="fa-solid fa-street-view"></i>
+                            </div>
+                            <div class="col-lg-6 mx-2 text-light my-auto" data-aos="fade-left" data-aos-duration="1500">
+                                <p>
+                                    <strong>Get Emergency Support.</strong> Our 24/7 Support
+                                    Representatives Will Help You With Your Project
+                                </p>
+                                <a href="contact_us.html"><button class="rounded-5 px-3 py-1 fs-5">
+                                        Click Here for Support
+                                    </button></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-
-        <!-- main section end -->
-        <!-- Emergency support -->
-        <div class="emergency-section mt-5 mb-5 ">
-            <div class="container h-100">
-                <div class="row h-100">
-                    <div class="col-lg-4 text-light my-auto text-end " data-aos="fade-right" data-aos-duration="1500">
-                        <i class="fa-solid fa-street-view"></i>
-                    </div>
-                    <div class="col-lg-6 mx-2 text-light my-auto" data-aos="fade-left" data-aos-duration="1500">
-                        <p>
-                            <strong>Get Emergency Support.</strong> Our 24/7 Support
-                            Representatives Will Help You With Your Project
-                        </p>
-                        <a href="contact_us.html"><button class="rounded-5 px-3 py-1 fs-5">
-                                Click Here for Support
-                            </button></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Emergency support end -->
-        <!-- service detail -->
-        <div class="service-detail mt-4 overflow-hidden">
-            <div class="container h-100">
-                <h2 class="text-decoration-underline text-center">
-                    ROADSIDE ASSISTANCE
-                </h2>
-                <div class="row h-100">
-                    <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1500">
-                        <img src="assets/images/road 01.png" alt="Image" style="height: 400px;">
-                    </div>
-                    <div class="col-lg-6 my-auto" data-aos="fade-left" data-aos-duration="1500">
-                        <p>
-                            Roadside assistance is an essential service ideal for owners of all types of vehicles,
-                            providing them with user-friendly solutions such as comprehensive assistance coverage, easy
-                            claim management, and flexible payment options. Our expert service providers have the
-                            capability to offer sensational and reliable roadside assistance plans, ensuring our clients
-                            receive guaranteed satisfaction. Our assistance plans are professionally designed and
-                            tailored
-                            with all your desired coverages. Roadside assistance is a robust and powerful protection
-                            plan
-                            that will safeguard your vehicle investment from day one.
-                        </p>
+                <!-- Emergency support end -->
+                <!-- service detail -->
+                <div class="service-detail mt-4 overflow-hidden">
+                    <div class="container h-100">
+                        <h2 class="text-decoration-underline text-center">
+                            ROADSIDE ASSISTANCE
+                        </h2>
+                        <div class="row h-100">
+                            <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1500">
+                                <img src="assets/images/road 01.png" alt="Image" style="height: 400px;">
+                            </div>
+                            <div class="col-lg-6 my-auto" data-aos="fade-left" data-aos-duration="1500">
+                                <p>
+                                    Roadside assistance is an essential service ideal for owners of all types of
+                                    vehicles,
+                                    providing them with user-friendly solutions such as comprehensive assistance
+                                    coverage, easy
+                                    claim management, and flexible payment options. Our expert service providers have
+                                    the
+                                    capability to offer sensational and reliable roadside assistance plans, ensuring our
+                                    clients
+                                    receive guaranteed satisfaction. Our assistance plans are professionally designed
+                                    and
+                                    tailored
+                                    with all your desired coverages. Roadside assistance is a robust and powerful
+                                    protection
+                                    plan
+                                    that will safeguard your vehicle investment from day one.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center align-items">
+                            <a href="contact_us.html"><button class="rounded-5 px-4 py-2">Get Started</button></a>
+                        </div>
                     </div>
                 </div>
-                <div class="d-flex justify-content-center align-items">
-                    <a href="contact_us.html"><button class="rounded-5 px-4 py-2">Get Started</button></a>
-                </div>
-            </div>
-        </div>
 
-        <!-- service detail end -->
+                <!-- service detail end -->
 
-        <!-- WHY CHOOSE Roadside Assistance -->
-        <div class="choose-section mt-4 overflow-hidden">
-            <div class="container h-100">
-                <div class="row h-100">
-                    <div class="col-lg-6 my-auto" data-aos="fade-up-right" data-aos-duration="1500">
-                        <h4>WHY CHOOSE OUR ROADSIDE ASSISTANCE</h4>
-                        <p>
-                            Our roadside assistance is the best choice for maintaining and protecting your vehicle. Our
-                            assistance plans include comprehensive coverage options and customizable plans to suit your
-                            specific needs, ensuring your car gets the help it deserves. One standout feature is our
-                            built-in claim optimizer, designed to streamline the assistance process and maximize your
-                            benefits, making it the first choice for car owners. With our assistance, you can have peace
-                            of
-                            mind knowing your vehicle is well-supported. This will enhance your confidence in your
-                            car's reliability and help you keep track of all necessary information such as assistance
-                            details, claim status, and maintenance records, even from your phone.
-                        </p>
-                    </div>
-                    <div class="col-lg-6" data-aos="fade-up-left" data-aos-duration="1500">
-                        <img src="/assets/images/road 02.png" alt="Image!" height="400px" />
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- WHY CHOOSE Roadside Assistance end-->
-
-
-        <!-- services -->
-        <div class="services mt-4 overflow-hidden">
-            <div class="container h-100">
-                <div class="row h-100 text-light">
-                    <div class="col-lg-6 my-auto p-2" data-aos="fade-down-left" data-aos-duration="1500">
-                        <!-- <img src="/assets/images/choose.png" alt="Image!" height="400px"> -->
-                        <h1>Video Will be Placed Here!!!!!!!!!!!!!!!</h1>
-                    </div>
-                    <div class="col-lg-6 my-auto p-4" data-aos="fade-down-right" data-aos-duration="1500">
-                        <h4>ROADSIDE ASSISTANCE</h4>
-                        <p>
-                            Our roadside assistance plans are versatile, offering comprehensive coverage and powerful
-                            benefits. Our skilled and professional team provides premium assistance design and complete
-                            support to ensure your vehicle is protected, taking your peace of mind to the next level.
-                        </p>
-
-                        <h5>ASSISTANCE PLAN DESIGN & CUSTOMIZATION:</h5>
-                        <p>
-                            Our assistance plan development follows industry standards to create plans that are
-                            effective
-                            across all situations and for various vehicle types. We offer customization services to
-                            tailor the assistance to your specific needs while retaining the core benefits.
-                        </p>
-
-                        <h5>DATA MIGRATION TO OUR ASSISTANCE PLANS:</h5>
-                        <p>
-                            Our assistance includes data migration from your current plan to our comprehensive
-                            assistance
-                            format. Our experts make the entire transformation and migration process smooth and
-                            hassle-free, ensuring a seamless transition.
-                        </p>
+                <!-- WHY CHOOSE Roadside Assistance -->
+                <div class="choose-section mt-4 overflow-hidden">
+                    <div class="container h-100">
+                        <div class="row h-100">
+                            <div class="col-lg-6 my-auto" data-aos="fade-up-right" data-aos-duration="1500">
+                                <h4>WHY CHOOSE OUR ROADSIDE ASSISTANCE</h4>
+                                <p>
+                                    Our roadside assistance is the best choice for maintaining and protecting your
+                                    vehicle. Our
+                                    assistance plans include comprehensive coverage options and customizable plans to
+                                    suit your
+                                    specific needs, ensuring your car gets the help it deserves. One standout feature is
+                                    our
+                                    built-in claim optimizer, designed to streamline the assistance process and maximize
+                                    your
+                                    benefits, making it the first choice for car owners. With our assistance, you can
+                                    have peace
+                                    of
+                                    mind knowing your vehicle is well-supported. This will enhance your confidence in
+                                    your
+                                    car's reliability and help you keep track of all necessary information such as
+                                    assistance
+                                    details, claim status, and maintenance records, even from your phone.
+                                </p>
+                            </div>
+                            <div class="col-lg-6" data-aos="fade-up-left" data-aos-duration="1500">
+                                <img src="/assets/images/road 02.png" alt="Image!" height="400px" />
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <!-- services end -->
+                <!-- WHY CHOOSE Roadside Assistance end-->
 
 
-        <!-- HOW WE DO IT -->
-        <div class="Do-it mt-4 overflow-hidden">
-            <div class="container py-5">
-                <div class="text-center">
-                    <h1>HOW WE DO IT</h1>
-                </div>
-                <div class="row py-4">
-                    <div class="col-lg-4 text-center p-3" data-aos="zoom-in" data-aos-duration="1500">
-                        <div class="fs-1"><i class="fa-regular fa-chart-bar"></i></div>
-                        <h4>ANALYSIS</h4>
-                        <p>
-                            Our assistance specialists analyze your vehicle's needs and offer
-                            the best roadside solution tailored to your requirements. The
-                            terms and timelines of the coverage are based on expert
-                            consultation provided by our assistance specialists.
-                        </p>
+                <!-- services -->
+                <div class="services mt-4 overflow-hidden">
+                    <div class="container h-100">
+                        <div class="row h-100 text-light">
+                            <div class="col-lg-6 my-auto p-2" data-aos="fade-down-left" data-aos-duration="1500">
+                                 <!-- -------------- video section ----------- -->
+                        <div class="row">
+                            <iframe width="560" height="450"
+                                src="https://www.youtube.com/embed/BS4TUd7FJSg?si=vCM6niDT4XVKw5fm"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                            </div>
+                            <div class="col-lg-6 my-auto p-4" data-aos="fade-down-right" data-aos-duration="1500">
+                                <h4>ROADSIDE ASSISTANCE</h4>
+                                <p>
+                                    Our roadside assistance plans are versatile, offering comprehensive coverage and
+                                    powerful
+                                    benefits. Our skilled and professional team provides premium assistance design and
+                                    complete
+                                    support to ensure your vehicle is protected, taking your peace of mind to the next
+                                    level.
+                                </p>
+
+                                <h5>ASSISTANCE PLAN DESIGN & CUSTOMIZATION:</h5>
+                                <p>
+                                    Our assistance plan development follows industry standards to create plans that are
+                                    effective
+                                    across all situations and for various vehicle types. We offer customization services
+                                    to
+                                    tailor the assistance to your specific needs while retaining the core benefits.
+                                </p>
+
+                                <h5>DATA MIGRATION TO OUR ASSISTANCE PLANS:</h5>
+                                <p>
+                                    Our assistance includes data migration from your current plan to our comprehensive
+                                    assistance
+                                    format. Our experts make the entire transformation and migration process smooth and
+                                    hassle-free, ensuring a seamless transition.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-lg-4 text-center p-3" data-aos="zoom-in" data-aos-duration="1500">
-                        <div class="fs-1"><i class="fa-brands fa-creative-commons-share"></i></div>
-                        <h4>CREATION</h4>
-                        <p>
-                            Our team meticulously designs and develops customized roadside assistance plans that meet
-                            the
-                            highest standards of quality and reliability. We ensure that each plan provides
-                            comprehensive coverage tailored to your specific needs, offering you peace of mind and
-                            protection against unexpected breakdowns. Our assistance services are crafted to be
-                            user-friendly and
-                            accessible, making it easy for you to understand and manage your coverage.
-                        </p>
-                    </div>
-                    <div class="col-lg-4 text-center p-3" data-aos="zoom-in" data-aos-duration="1500">
-                        <div class="fs-1"><i class="fa-solid fa-screwdriver-wrench"></i></div>
-                        <h4>SUPPORT</h4>
-                        <p>
-                            Our assistance experts ensure you are fully comfortable with your coverage by providing
-                            continuous support and maintenance. We are dedicated to keeping your vehicle protected and
-                            ensuring your ownership experience remains worry-free and seamless.
-                        </p>
-                    </div>
                 </div>
-                <div class="d-flex justify-content-center align-items">
-                    <a href="contact_us.html"><button class="rounded-5 px-4 py-2">Get Started</button></a>
-                </div>
-            </div>
-        </div>
-        <!-- HOW WE DO IT END -->
+                <!-- services end -->
 
 
-        <!-- Faqs start  -->
-        <div class="faq-section overflow-hidden " data-aos="zoom-in-left" data-aos-duration="1500">
-            <div class="container mt-5 ">
-                <h2 class="text-center">FAQ</h2>
-                <button class="accordion">What is codingtorque.com?</button>
-                <div class="panel">
-                    <p>Coding Torque (codingtorque.com) is a free platform to learn coding for free by making amazing
-                        projects. Here
-                        we share source code of projects that you can copy or keep on secondary screen and type yourself
-                        by looking
-                        into it.</p>
+                <!-- HOW WE DO IT -->
+                <div class="Do-it mt-4 overflow-hidden">
+                    <div class="container py-5">
+                        <div class="text-center">
+                            <h1>HOW WE DO IT</h1>
+                        </div>
+                        <div class="row py-4">
+                            <div class="col-lg-4 text-center p-3" data-aos="zoom-in" data-aos-duration="1500">
+                                <div class="fs-1"><i class="fa-regular fa-chart-bar"></i></div>
+                                <h4>ANALYSIS</h4>
+                                <p>
+                                    Our assistance specialists analyze your vehicle's needs and offer
+                                    the best roadside solution tailored to your requirements. The
+                                    terms and timelines of the coverage are based on expert
+                                    consultation provided by our assistance specialists.
+                                </p>
+                            </div>
+                            <div class="col-lg-4 text-center p-3" data-aos="zoom-in" data-aos-duration="1500">
+                                <div class="fs-1"><i class="fa-brands fa-creative-commons-share"></i></div>
+                                <h4>CREATION</h4>
+                                <p>
+                                    Our team meticulously designs and develops customized roadside assistance plans that
+                                    meet
+                                    the
+                                    highest standards of quality and reliability. We ensure that each plan provides
+                                    comprehensive coverage tailored to your specific needs, offering you peace of mind
+                                    and
+                                    protection against unexpected breakdowns. Our assistance services are crafted to be
+                                    user-friendly and
+                                    accessible, making it easy for you to understand and manage your coverage.
+                                </p>
+                            </div>
+                            <div class="col-lg-4 text-center p-3" data-aos="zoom-in" data-aos-duration="1500">
+                                <div class="fs-1"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                                <h4>SUPPORT</h4>
+                                <p>
+                                    Our assistance experts ensure you are fully comfortable with your coverage by
+                                    providing
+                                    continuous support and maintenance. We are dedicated to keeping your vehicle
+                                    protected and
+                                    ensuring your ownership experience remains worry-free and seamless.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center align-items">
+                            <a href="contact_us.html"><button class="rounded-5 px-4 py-2">Get Started</button></a>
+                        </div>
+                    </div>
                 </div>
-                <button class="accordion">How can I downlaod your app?</button>
-                <div class="panel">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci deserunt asperiores
-                        delectus
-                        repellat magni!</p>
+                <!-- HOW WE DO IT END -->
+
+
+                <!-- Faqs start  -->
+                <div class="faq-section overflow-hidden " data-aos="zoom-in-left" data-aos-duration="1500">
+                    <div class="container mt-5 ">
+                        <h2 class="text-center">FAQ</h2>
+                        <button class="accordion">What is codingtorque.com?</button>
+                        <div class="panel">
+                            <p>Coding Torque (codingtorque.com) is a free platform to learn coding for free by making
+                                amazing
+                                projects. Here
+                                we share source code of projects that you can copy or keep on secondary screen and type
+                                yourself
+                                by looking
+                                into it.</p>
+                        </div>
+                        <button class="accordion">How can I downlaod your app?</button>
+                        <div class="panel">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci deserunt
+                                asperiores
+                                delectus
+                                repellat magni!</p>
+                        </div>
+                        <button class="accordion">How can I buy your ebook?</button>
+                        <div class="panel">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci deserunt
+                                asperiores
+                                delectus
+                                repellat magni!</p>
+                        </div>
+                        <button class="accordion">What is codingtorque.com?</button>
+                        <div class="panel">
+                            <p>Coding Torque (codingtorque.com) is a free platform to learn coding for free by making
+                                amazing
+                                projects. Here
+                                we share source code of projects that you can copy or keep on secondary screen and type
+                                yourself
+                                by looking
+                                into it.</p>
+                        </div>
+                        <button class="accordion">How can I downlaod your app?</button>
+                        <div class="panel">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci deserunt
+                                asperiores
+                                delectus
+                                repellat magni!</p>
+                        </div>
+                        <button class="accordion">How can I buy your ebook?</button>
+                        <div class="panel">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci deserunt
+                                asperiores
+                                delectus
+                                repellat magni!</p>
+                        </div>
+                        <button class="accordion">What is codingtorque.com?</button>
+                        <div class="panel">
+                            <p>Coding Torque (codingtorque.com) is a free platform to learn coding for free by making
+                                amazing
+                                projects. Here
+                                we share source code of projects that you can copy or keep on secondary screen and type
+                                yourself
+                                by looking
+                                into it.</p>
+                        </div>
+                        <button class="accordion">How can I downlaod your app?</button>
+                        <div class="panel">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci deserunt
+                                asperiores
+                                delectus
+                                repellat magni!</p>
+                        </div>
+                        <button class="accordion">How can I buy your ebook?</button>
+                        <div class="panel">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci deserunt
+                                asperiores
+                                delectus
+                                repellat magni!</p>
+                        </div>
+                    </div>
                 </div>
-                <button class="accordion">How can I buy your ebook?</button>
-                <div class="panel">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci deserunt asperiores
-                        delectus
-                        repellat magni!</p>
-                </div>
-                <button class="accordion">What is codingtorque.com?</button>
-                <div class="panel">
-                    <p>Coding Torque (codingtorque.com) is a free platform to learn coding for free by making amazing
-                        projects. Here
-                        we share source code of projects that you can copy or keep on secondary screen and type yourself
-                        by looking
-                        into it.</p>
-                </div>
-                <button class="accordion">How can I downlaod your app?</button>
-                <div class="panel">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci deserunt asperiores
-                        delectus
-                        repellat magni!</p>
-                </div>
-                <button class="accordion">How can I buy your ebook?</button>
-                <div class="panel">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci deserunt asperiores
-                        delectus
-                        repellat magni!</p>
-                </div>
-                <button class="accordion">What is codingtorque.com?</button>
-                <div class="panel">
-                    <p>Coding Torque (codingtorque.com) is a free platform to learn coding for free by making amazing
-                        projects. Here
-                        we share source code of projects that you can copy or keep on secondary screen and type yourself
-                        by looking
-                        into it.</p>
-                </div>
-                <button class="accordion">How can I downlaod your app?</button>
-                <div class="panel">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci deserunt asperiores
-                        delectus
-                        repellat magni!</p>
-                </div>
-                <button class="accordion">How can I buy your ebook?</button>
-                <div class="panel">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci deserunt asperiores
-                        delectus
-                        repellat magni!</p>
-                </div>
-            </div>
-        </div>
-        <!-- Faqs start end -->
+                <!-- Faqs start end -->
 
 
     </main>
     <!-- Footer -->
-    <footer class="mt-5">
-        <div class="row">
-            <div class="col-lg-4 col-md-4">
-
-            </div>
-            <div class="col-lg-8 col-md-8 ">
-                <div class="row row d-flex flex-wrap">
-                    <div class="col-lg-4 list_link d-flex flex-column flex-wrap">
-                        <h5>Car Servicing & Repairs</h5>
-                        <a href="javascript:void(0)">Car Servicing</a>
-                        <a href="javascript:void(0)">Log Book Service</a>
-                        <a href="javascript:void(0)">Essential Service</a>
-                        <a href="javascript:void(0)">Other Services</a>
+    <footer class="mt-4">
+        <div class="container-fliud footer_header">
+            <div class="row p-5 d-flex flex-wrap ">
+                <div class="col-lg-2 ">
+                    <h3>About</h3>
+                    <div>
+                        <a href="about_us.html"> About Us</a>
                     </div>
-                    <div class="col-lg-4 col-md-6 g-0 mt-3 ">
-                        <div class="row flex-row g-0">
-                            <div class="col-sm-3 text-end">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </div>
-                            <div class="col-sm-8 ms-3">
-                                <a class="text_color_h5 text-decoration-underline" href="javascript:void(0)">
-                                    <h5>
-                                        Our Location</h5>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 g-0 mt-3 ">
-                        <div class="row flex-row g-0">
-                            <div class="col-sm-3 text-end">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </div>
-                            <div class="col-sm-8 ms-3">
-                                <a class="text_color_h5 text-decoration-underline" href="javascript:void(0)">
-                                    <h5>Insurance Services</h5>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="row row d-flex flex-wrap">
-                    <div class="col-lg-4 col-md-6 list_link d-flex flex-column">
-                        <h5>About Us</h5>
-                        <a href="javascript:void(0)">About MoterService</a>
-                        <a href="javascript:void(0)">Contact us</a>
-                        <a href="javascript:void(0)">Careers</a>
-                    </div>
-                    <div class="col-lg-4 col-md-6  g-0 mt-3 ">
-                        <div class="row flex-row g-0">
-                            <div class="col-sm-3 text-end">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </div>
-                            <div class="col-sm-8 ms-3">
-                                <a class="text_color_h5 text-decoration-underline" href="javascript:void(0)">
-                                    <h5>Book a Service</h5>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 list_link d-flex flex-column">
-                        <div class="ms-5 d-flex flex-column">
-                            <h5>Connect with us</h5>
-                            <a href="javascript:void(0)">Facebook</a>
-                            <a href="javascript:void(0)">Linkedin</a>
-                            <a href="javascript:void(0)">Instagram</a>
-                        </div>
+                    <div>
+                        <a href="contact_us.html"> Contant Us</a>
                     </div>
                 </div>
+                <div class="col-lg-3">
+                    <h3>Our Services</h3>
+                    <div class="d-flex flex-column flex-wrap">
+                        <a href="/service-car-warranty.html">Used Car warranty </a>
+                        <a href="/service-inspection.html">Vehicle inspection </a>
+                        <a href="Vehicle-Service.html">Vehicle Service </a>
+                        <a href="Road-side.html">Road Side </a>
+                        <a href="Battery-Replacement.html">Battery Replacement </a>
+                        <a href="Windscreen-Repair.html">Windscreen Repair </a>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <h3>
+                        Pages
+                    </h3>
+                    <div class="d-flex flex-column flex-wrap">
+                        <a href="FAQs.html">Faq</a>
+                        <a href="testimonial.html">Testimonial</a>
+                        <a href="Pricing.html">Pricing</a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <h3>Contact Info</h3>
+                    <ul class="list-unstyled">
+                        <li><strong>Address:</strong> 123 Motor St, Car City</li>
+                        <li><strong>Phone:</strong> (123) 456-7890</li>
+                        <li><strong>Email:</strong> info@motoreasy.com</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h3>
+                        Social
+                    </h3>
+                    <ul class="list-unstyled">
+                        <li><strong><i class="fa-brands fa-instagram"></i></strong> Instagram</li>
+                        <li><strong><i class="fa-brands fa-facebook"></i></strong> Facebook</li>
+                        <li><strong><i class="fa-brands fa-twitter"></i></strong>Twitter</li>
+                        <li><strong><i class="fa-brands fa-youtube"></i></strong>Youtube</li>
+                    </ul>
+                </div>
+
+
             </div>
-        </div>
-        <hr>
-        <div class="row d-flex flex-wrap">
-            <div class="col-lg-4  flex-wrap col-md-4 list_link  d-flex flex-column d-flex flex-column">
-                <a href="javascript:void(0)">Terms & Condition</a>
-                <a href="javascript:void(0)">Our Response </a>
-                <a href="javascript:void(0)">Privacy and Policy</a>
-            </div>
-            <div class="col-lg-8 col-md-8 flex-wrap list_link d-flex flex-column">
-                <a href="javascript:void(0)">^Terms and conditions apply and available here.</a>
-                <a href="javascript:void(0)">°Full warranty information available here</a>
-                <p>Motorserve Pty Ltd ABN 41 121 715 393, NSW license number MVRL43713, ACT license number 20000142 is
-                    an entity within the IAG group.</p>
-                <p>Motorserve holds a valid RTA number. License number: AU23814</p>
-            </div>
-        </div>
         </div>
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
