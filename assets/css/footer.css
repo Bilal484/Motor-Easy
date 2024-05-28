@@ -8,19 +8,21 @@
 
 .footer_header a {
     text-decoration: none;
-    color: #003a63;
+    color: white;
+    line-height: 30px;
 }
 
 .footer_header h3 {
-    color: #003a63;
+    color: white;
     font-size: 20px;
     font-weight: 700;
     font-family: "Rajdhani", sans-serif;
+    margin-bottom: 20px;
 
 }
 
 .footer_header a:hover {
-    color: white;
+    color: #003a63;
     transition: 0.5s;
 }
 
@@ -42,4 +44,17 @@ footer .footer_header .col-lg-4 {
 
 .footer_header p {
     color: #1bb7ff;
+}
+.footer_header li{
+    color: white;
+    line-height: 30px;
+}
+.footer_header li:hover{
+    color: #003a63;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.footer_header li strong{
+   margin: 10px;
+
 }
