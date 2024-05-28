@@ -1,16 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
 /* ************ Top Header ************* */
 .top_header h6 {
     font-size: 16px;
     font-family: sans-serif;
 }
 
-header nav {
-    background-color: white;
+.top_header {
+    background-color: #2bace7;
+    color: white;
+}
+
+header .navbar-collapse {
+    flex-grow: 0;
+}
+
+
+
+.container-fluid .motor_easy_width {
+    /* font-size: 25px; */
+    font-weight: 700;
+    color: #62869f;
 }
 
 /* ****************** header **************** */
-@media all and (min-width: 992px) {
+/* @media all and (min-width: 992px) {
     .navbar .nav-item .dropdown-menu {
         display: none;
     }
@@ -24,7 +38,7 @@ header nav {
     .navbar .nav-item .dropdown-menu {
         margin-top: 0;
     }
-}
+} */
 
 .collapse .navbar-nav li {
     padding: 0px 0px 0px 30px;
@@ -53,30 +67,4 @@ header nav {
 
 .nav-item .dropdown-menu li {
     padding: 2px;
-}
-
-.navbar {
-    background-color: transparent;
-    transition: background-color 0.3s ease;
-}
-
-/* Navbar style after scrolling */
-.navbar.scrolled {
-    background-color: #f8f9fa;
-    /* Change to your desired color */
-}
-
-/* Ensure the navbar toggler icon is visible on all backgrounds */
-.navbar-toggler-icon {
-    color: black;
-    /* Adjust based on your preference */
-}
-
-/* Optional: Adjust the button style */
-.navbar button {
-    background-color: transparent;
-    border: none;
-    color: black;
-    font-size: 1.2em;
-    cursor: pointer;
 }

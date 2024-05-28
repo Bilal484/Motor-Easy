@@ -1,0 +1,83 @@
+.title_shape {
+    background-image: url(/assets/images/title-shap.png);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.title_shape p {
+    color: #2bace7;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+
+}
+
+.title_shape h3 {
+    color: black;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+
+}
+
+.title_shape h3 span {
+    color: #2bace7;
+}
+
+/* *************** Pricing  Section ***************** */
+.Pricing h2 {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    color: #002e5a;
+}
+
+.Pricing h3 {
+    color: #002e5a;
+    font-weight: 600;
+}
+
+.Pricing h3 span {
+    color: #2bace7;
+    font-family: "Rajdhani", sans-serif;
+}
+
+.Pricing {
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        /* border: 1px solid #ddd; */
+    }
+
+    th,
+    td {
+
+        padding: 16px;
+    }
+    th
+     {
+        font-family: "Rajdhani", sans-serif;
+      font-size: 30px;
+    }
+
+    th,
+    td i {
+
+    margin-left: 10px;
+    }
+
+    th:first-child,
+    td:first-child {
+        text-align: left;
+    }
+
+
+
+    .fa-check {
+        color: #2bace7;
+    }
+
+    .fa-remove {
+        color: red;
+    }
+}
