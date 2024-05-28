@@ -15,6 +15,10 @@ header .navbar-collapse {
     flex-grow: 0;
 }
 
+.header {
+    background-color: white !important;
+}
+
 
 
 .container-fluid .motor_easy_width {
@@ -58,6 +62,7 @@ header .navbar-collapse {
     background-color: #2bace7;
     color: white;
 }
+
 
 .collapse .navbar-nav button:hover {
     background-color: #62869f;

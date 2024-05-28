@@ -21,7 +21,7 @@
 .about_us_bg_image p {
     color: white;
     font-size: 13px;
-    
+
 }
 
 /* *********************** Card Section ******************* */
@@ -348,4 +348,24 @@
     color: white;
     font-family: "Rajdhani", sans-serif;
     font-weight: 700;
+}
+
+@media (min-width:425px) {
+   
+
+    .about_last_portion {
+        height: 43vh !important;
+    }
+    .about_last_portion .Newsletter_email{
+        text-align: center;
+    }
+    .about_last_portion .Newsletter_email input {
+        padding: 10px;
+        width: 100%;
+
+    }
+    .about_last_portion .Newsletter_email button {
+        padding: 10px;
+        font-size: 13px;
+    }
 }
