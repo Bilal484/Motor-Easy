@@ -464,11 +464,11 @@ textarea:-webkit-autofill:focus {
     transition: 0.4s;
 }
 
-.active,
+/* .active,
 .accordion:hover {
     background-color: rgb(233, 233, 233);
     border: 1px dashed deepskyblue;
-}
+} */
 
 .accordion:after {
     content: '\002B';

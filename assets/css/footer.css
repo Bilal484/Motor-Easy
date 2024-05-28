@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+
+/* .footer_header {
+    background-color: #1bb7ff;
+    color: white;
+} */
+
+.footer_header a {
+    text-decoration: none;
+    color: #003a63;
+}
+
+.footer_header h3 {
+    color: #003a63;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Rajdhani", sans-serif;
+
+}
+
+.footer_header a:hover {
+    color: white;
+    transition: 0.5s;
+}
+
+footer .footer_header .col-lg-2 {
+    background-color: #1bb7ff;
+}
+
+footer .footer_header .col-lg-4 {
+    background-color: #003a63;
+}
+
+.footer_header {
+    background-color: #1bb7ff;
+}
+
+.footer_header h4 {
+    color: white;
+}
+
+.footer_header p {
+    color: #1bb7ff;
+}

@@ -492,7 +492,7 @@ a {
 /* ************** inner carousel after FAQ ************** */
 .carousel-inner .carousel-item .set_width_carousel {
     width: 136px;
-    margin-left: 60px;
+    margin-left: 36px;
     background: none;
 }
 
@@ -662,3 +662,8 @@ footer p {
     margin-top: -14rem;
 }
 
+@media (min-width:425px) {
+    .fourth_portion button {
+        padding: 5px;
+    }
+}
