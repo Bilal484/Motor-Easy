@@ -53,6 +53,7 @@ header .navbar-collapse {
 
 .collapse .navbar-nav li a:hover {
     color: #2bace7;
+    /* background-color: grey; */
 }
 
 .collapse .navbar-nav button {
@@ -72,4 +73,5 @@ header .navbar-collapse {
 
 .nav-item .dropdown-menu li {
     padding: 2px;
+    /* background-color: black; */
 }
