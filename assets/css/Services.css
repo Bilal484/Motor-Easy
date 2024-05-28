@@ -39,9 +39,10 @@ a:hover {
 /* ================ carsoule start ======================== */
 .carousel-item {
     margin-bottom: 20px !important;
-    height: 60vh;
+    
+    /* height: 95vh;
     background: rgba(12, 12, 12, 0.9);
-    background-blend-mode: multiply;
+    background-blend-mode: multiply; */
 }
 
 .carousel-item .carousel-caption h6 {
@@ -101,7 +102,15 @@ a:hover {
     background-color: #04BAE0;
     transition: 1s;
 }
+/* @media (min-width:425px) and (max-width:1440){
 
+    .carousel-item {
+        margin-bottom: 20px !important;
+        height: 10vh;
+        
+    }
+    
+} */
 
 /* ================ carsoule end ======================== */
 .contact-us {
