@@ -27,28 +27,28 @@
 </head>
 
 <body>
-  <!-- =================== Top Header ============= -->
-  <nav class="top_header  d-none d-md-block" style="background-color: #2bace7; color:white;">
-    <div class="conatiner-fluid">
-        <div class="row p-3">
-            <div class="col-lg-6 d-flex flex-column">
-                <div class="d-flex flex-row justify-content-evenly ms-4 ">
-                    <h6>Monday to Friday: 09am to 08pm </h6>
-                    <h6>Info@Motoreasy.com.au</h6>
+    <!-- =================== Top Header ============= -->
+    <nav class="top_header  d-none d-md-block" style="background-color: #2bace7; color:white;">
+        <div class="conatiner-fluid">
+            <div class="row p-3">
+                <div class="col-lg-6 d-flex flex-column">
+                    <div class="d-flex flex-row justify-content-evenly ms-4 ">
+                        <h6>Monday to Friday: 09am to 08pm </h6>
+                        <h6>Info@Motoreasy.com.au</h6>
+                    </div>
+                    <div class="d-flex justify-content-center w-75 ">
+                        <h6 class="">Brisbane, Canberra, Melbourne, Sydney</h6>
+                    </div>
                 </div>
-                <div class="d-flex justify-content-center w-75 ">
-                    <h6 class="">Brisbane, Canberra, Melbourne, Sydney</h6>
-                </div>
-            </div>
-            <div class="col-lg-5 d-flex text-end flex-row d-flex justify-content-end">
-                <div class="d-flex  flex-row justify-content-between gap-4 align-items-center ">
-                    <h6 class="mt-2">
-                        Follow Us
-                    </h6>
+                <div class="col-lg-5 d-flex text-end flex-row d-flex justify-content-end">
+                    <div class="d-flex  flex-row justify-content-between gap-4 align-items-center ">
+                        <h6 class="mt-2">
+                            Follow Us
+                        </h6>
 
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
 
                 </div>
             </div>
@@ -101,8 +101,71 @@
     </nav>
 </header>
     <main>
+         <!-- carousel -->
+         <div class="container-fluid">
+    <div class="row my-auto">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000" style="border: none; background: none;">
+                    <img src="/assets/images/other_service_11.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block my-auto">
+                        <div class="text-section">
+                            <h6>Vehicle Inspection</h6>
+                            <p>Ensure Your Car is in Top Condition with Our Comprehensive Inspections</p>
+                            <div>
+                                <button class="read_more"> Read More</button>
+                                <a href="contact_us.html"><button class="get_a_quote">Contact Us</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="/assets/images/other_service_16.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h6>Vehicle Inspection</h6>
+                        <p>Thorough Checks for Your Peace of Mind</p>
+                        <div>
+                            <button class="read_more"> Read More</button>
+                            <a href="contact_us.html"><button class="get_a_quote">Contact Us</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="/assets/images/other_service_22.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h6>Vehicle Inspection</h6>
+                        <p>Expert Inspections to Keep You Safe on the Road</p>
+                        <div>
+                            <button class="read_more"> Read More</button>
+                            <a href="contact_us.html"><button class="get_a_quote">Contact Us</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev my-auto" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next my-auto" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</div>
+
         <!-- main section -->
-        <div class="main-banner-inception overflow-hidden ">
+        <!-- <div class="main-banner-inception overflow-hidden ">
             <div class="container h-100">
                 <div class="row text-light align-items-center h-100">
                     <div class="col-lg-6 my-auto">
@@ -147,7 +210,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <!-- main section end -->
         <!-- Emergency support -->
@@ -234,7 +297,14 @@
             <div class="container h-100">
                 <div class="row h-100 text-light">
                     <div class="col-lg-6 my-auto" data-aos="flip-up" data-aos-duration="1500">
-                        <h1>Video Will be Placed Here!!!!!!!!!!!!!!!</h1>
+                         <!-- -------------- video section ----------- -->
+                         <div class="row">
+                            <iframe width="560" height="450"
+                                src="https://www.youtube.com/embed/BS4TUd7FJSg?si=vCM6niDT4XVKw5fm"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
                     </div>
                     <div class="col-lg-6 my-auto p-4 overflow-hidden " data-aos="flip-up" data-aos-duration="1500">
                         <h4>VEHICLE INSPECTION SERVICES</h4>
