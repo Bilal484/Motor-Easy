@@ -38,8 +38,8 @@ a:hover {
 
 /* ================ carsoule start ======================== */
 .carousel-item {
-    margin-bottom: 20px !important;
-    
+    /* margin-bottom: 20px !important;
+    height: 500px; */
     /* height: 95vh;
     background: rgba(12, 12, 12, 0.9);
     background-blend-mode: multiply; */

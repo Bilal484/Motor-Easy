@@ -68,7 +68,15 @@
 
     th:first-child,
     td:first-child {
-        text-align: left;
+        text-align: center;
+    }
+    .Titanium tbody {
+        th{
+            text-align: left;
+        }
+        td{
+            text-align: left;
+        }
     }
 
 
