@@ -216,18 +216,17 @@
 }
 
 @media (min-width:425px) {
-    /* .counter-box span {
-        color: black;
-    }
-    .counter-box .counter{
-        color: black;
-    } */
-    /* .counter-box_1 .container{
-        height: 961px;
-    } */
-    /* .counter-box_1 .container .four{
-        margin-top: 0px !important;
-    } */
+    .counter-box_1 .container .four {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+}
+   
 }
 
 /* ********************* GET A FREE ESTIMATE ******************/

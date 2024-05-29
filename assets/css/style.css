@@ -113,6 +113,53 @@ a {
     color: white;
     margin-top: 70px !important;
 }
+@media(width:768px){
+    .card .card-body .card-main i {
+        font-size: 50px;
+        color: white;
+        margin-top: 10px !important;
+    }
+    .card .card-body .card-main h3 {
+        font-size: 24px;
+        color: #07335e;
+        font-weight: 600;
+        font-family: poppins;
+        
+    }
+
+}
+@media(min-width:425px) and (max-width:768px){
+    .card .card-body .card-main i {
+        font-size: 40px;
+        color: white;
+        margin-top: 50px !important;
+    }
+}
+@media(min-width:375px) and (max-width:425px){
+    .card .card-body .card-main i {
+        font-size: 40px;
+        color: white;
+        margin-top: 70px !important;
+    }
+    .card .card-body .card-main h3 {
+        font-size: 20px;
+        color: #07335e;
+        font-weight: 600;
+        font-family: poppins;
+        margin-bottom: 10px;
+        margin-top: 50px;
+        
+    }
+    .card .card-body .card-main p {
+        font-size: 13px;
+        width: 95%;
+        margin: 0 auto;
+        color: black;
+        font-weight: 600;
+        font-family: poppins;
+        margin-top: 10px;
+    }
+}
 
 .card .card-body .card-main h3 {
     font-size: 24px;
