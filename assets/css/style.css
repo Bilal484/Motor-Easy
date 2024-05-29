@@ -111,7 +111,7 @@ a {
 .card .card-body .card-main i {
     font-size: 50px;
     color: white;
-    margin-top: 30px !important;
+    margin-top: 70px !important;
 }
 
 .card .card-body .card-main h3 {
@@ -615,46 +615,6 @@ a {
 }
 
 /* Footer */
-footer {
-    width: 100%;
-    height: auto;
-    background-color: #1bb7ff;
-    color: #003a63;
-    padding: 30px;
-}
-
-.list_link {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.list_link h5 {
-
-    margin-top: 20px;
-}
-
-.list_link a {
-    line-height: 28px;
-    color: rgb(65, 64, 64);
-    font-size: 14px;
-    text-decoration: underline;
-}
-
-.list_link a:hover {
-    color: white;
-}
-
-footer h5 {
-    font-size: 16px;
-    margin-top: 2px;
-    color: #003a63;
-}
-
-footer p {
-    font-size: 14px;
-    margin-top: 10px;
-}
 
 /* last section image set  */
 .cycle_image {
@@ -666,4 +626,15 @@ footer p {
     .fourth_portion button {
         padding: 5px;
     }
+}
+
+@media (min-width:768px) {
+    .card .card-body .card-main img {
+        margin-bottom: -29px;
+    }
+
+    .card .card-body .card-main i {
+        /* margin-top: 25px !important; */
+    }
+
 }

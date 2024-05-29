@@ -30,9 +30,6 @@ footer .footer_header .col-lg-2 {
     background-color: #1bb7ff;
 }
 
-footer .footer_header .col-lg-4 {
-    background-color: #003a63;
-}
 
 .footer_header {
     background-color: #1bb7ff;
@@ -45,16 +42,28 @@ footer .footer_header .col-lg-4 {
 .footer_header p {
     color: #1bb7ff;
 }
-.footer_header li{
+
+.footer_header li {
     color: white;
     line-height: 30px;
 }
-.footer_header li:hover{
+
+.footer_header li:hover {
     color: #003a63;
     cursor: pointer;
     transition: 0.5s;
 }
-.footer_header li strong{
-   margin: 10px;
 
+.footer_header li strong {
+    margin: 10px;
+
+}
+
+.second_footer {
+    background-color: #003a63;
+    color: white;
+}
+
+.second_footer ul li:hover {
+    color: #1bb7ff;
 }
