@@ -75,3 +75,13 @@ header .navbar-collapse {
     padding: 2px;
     /* background-color: black; */
 }
+
+
+@media (max-width: 990px){
+    .collapse .navbar-nav li{
+        padding: 0px;
+    }
+    .collapse .navbar-nav button{
+        margin-left: 0rem !important;
+    }
+}
