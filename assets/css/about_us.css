@@ -186,7 +186,10 @@
 
 .counter-box {
     position: relative;
-    bottom: 10rem;
+    padding: 50px;
+    text-align: center;
+
+    /* bottom: 10rem; */
 }
 
 .counter {
@@ -206,28 +209,42 @@
 .counter-box_1 .container {
     background-color: #007bff;
     color: white;
-    height: 245px;
+    /* height: 245px; */
     border: 15px solid #98bcd1;
     border-radius: 10px;
 }
 
 .counter-box_1 .container .four {
-    margin-top: 80px;
+    /* margin-top: 80px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.counter-box_1 .container .four1{
+    background: url("/assets/images/H4-counter1.png") no-repeat center ;
+    /* height: 100px; */
+    
+}
+.counter-box_1 .container .four2{
+    background: url("/assets/images/H4-counter2.png") no-repeat center ;
+    /* height: 100px; */
+    
+}
+.counter-box_1 .container .four3{
+    background: url("/assets/images/H4-counter3.png") no-repeat center ;
+    /* height: 100px; */
+    
+}
+.counter-box_1 .container .four4{
+    background: url("/assets/images/H4-counter4.png") no-repeat center ;
+    /* height: 100px; */
+    
 }
 
 @media (min-width:425px) {
-    /* .counter-box span {
-        color: black;
-    }
-    .counter-box .counter{
-        color: black;
-    } */
-    /* .counter-box_1 .container{
-        height: 961px;
-    } */
-    /* .counter-box_1 .container .four{
-        margin-top: 0px !important;
-    } */
+    
 }
 
 /* ********************* GET A FREE ESTIMATE ******************/
