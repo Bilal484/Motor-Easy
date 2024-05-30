@@ -186,7 +186,7 @@
 
 .counter-box {
     position: relative;
-    bottom: 10rem;
+    /* bottom: 10rem; */
 }
 
 .counter {
@@ -196,6 +196,7 @@
 
 .counter {
     font-size: 50px;
+    padding: 40px;
     font-weight: bold;
     position: relative;
     color: white;
@@ -206,27 +207,42 @@
 .counter-box_1 .container {
     background-color: #007bff;
     color: white;
-    height: 245px;
+    /* height: 245px; */
     border: 15px solid #98bcd1;
     border-radius: 10px;
 }
 
 .counter-box_1 .container .four {
-    margin-top: 80px;
-}
-
-@media (min-width:425px) {
-    .counter-box_1 .container .four {
-    margin-top: 10px;
+    /* margin-top: 80px; */
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    
+}
+.counter-box_1 .container .four1{
+    background: url("/assets/images/H4-counter1.png") no-repeat center ;
+    /* height: 100px; */
     
 }
-   
+.counter-box_1 .container .four2{
+    background: url("/assets/images/H4-counter2.png") no-repeat center ;
+    /* height: 100px; */
+    
+}
+.counter-box_1 .container .four3{
+    background: url("/assets/images/H4-counter3.png") no-repeat center ;
+    /* height: 100px; */
+    
+}
+.counter-box_1 .container .four4{
+    background: url("/assets/images/H4-counter4.png") no-repeat center ;
+    /* height: 100px; */
+    
+}
+
+@media (min-width:425px) {
+    
 }
 
 /* ********************* GET A FREE ESTIMATE ******************/
