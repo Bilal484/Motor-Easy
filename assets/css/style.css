@@ -159,6 +159,7 @@ a {
         font-family: poppins;
         margin-top: 10px;
     }
+      
 }
 
 .card .card-body .card-main h3 {
@@ -669,12 +670,26 @@ a {
     margin-top: -14rem;
 }
 
-@media (min-width:425px) {
+@media (min-width:250px) and (max-width:531px){
     .fourth_portion button {
+        background-color: #002e5a;
+        width: 150px;
+        color: white;
         padding: 5px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: 500;
+        border: none;
+        margin-left: 5px;
     }
-}
+    .fourth_portion .button-active {
+        background-color: #007bff;
+        color: #fff;
+        padding: 5px;
+    
+    }
 
+}
 @media (min-width:768px) {
     .card .card-body .card-main img {
         margin-bottom: -29px;

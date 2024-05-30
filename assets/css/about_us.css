@@ -186,6 +186,9 @@
 
 .counter-box {
     position: relative;
+    padding: 50px;
+    text-align: center;
+
     /* bottom: 10rem; */
 }
 
@@ -196,7 +199,6 @@
 
 .counter {
     font-size: 50px;
-    padding: 40px;
     font-weight: bold;
     position: relative;
     color: white;
