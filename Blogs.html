@@ -16,87 +16,162 @@
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/Header_sub.css">
+    <link rel="stylesheet" href="/assets/css/header_index.css">
     <link rel="stylesheet" href="/assets/css/blogs.css">
     <link rel="stylesheet" href="/assets/css/about_us.css">
     <link rel="stylesheet" href="assets/css/footer.css">
 </head>
 
 <body>
-    <!-- =================== Top Header ============= -->
-    <nav class="top_header  d-none d-md-block" style="background-color: #2bace7; color:white;">
-        <div class="conatiner-fluid">
-            <div class="row p-3">
-                <div class="col-lg-6 d-flex flex-column">
-                    <div class="d-flex flex-row justify-content-evenly ms-4 ">
-                        <h6>Monday to Friday: 09am to 08pm </h6>
-                        <h6>Info@Motoreasy.com.au</h6>
+    <!-- ------------Top Header ----------------- -->
+    <section class="top_header d-none d-md-block">
+        <div class="main">
+            <div class="container">
+                <div class="row d-flex flex-row  justify-content-center align-items-center">
+                    <div class="col-lg-3 col-md-6 col-sm-6 company_logo">
+                        <a href="/index.html">
+                            <h2 style="color: #04BAE0;">Motor Easy</h2>
+                        </a>
                     </div>
-                    <div class="d-flex justify-content-center w-75 ">
-                        <h6 class="">Brisbane, Canberra, Melbourne, Sydney</h6>
+                    <div class="col-lg-3 col-md-6 col-sm-6 g-0">
+                        <div class="row d-flex flex-row">
+                            <div class="col-md-2 icons   d-flex align-items-center justify-content-center">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="col-md-9 p-2 mt-3 d-flex flex-column ">
+                                <h6>
+                                    Address:
+                                </h6>
+                                <p>Brisbane, Canberra,<br>
+                                    Melbourne, Sydney</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-5 d-flex text-end flex-row d-flex justify-content-end">
-                    <div class="d-flex  flex-row justify-content-between gap-4 align-items-center ">
-                        <h6 class="mt-2">
-                            Follow Us
-                        </h6>
+                    <div class="col-lg-3 col-md-6 col-sm-6 g-0">
+                        <div class="row d-flex flex-row">
+                            <div class="col-md-2 icons  d-flex align-items-center ">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="col-md-9 p-2 mt-3 d-flex flex-column">
+                                <h6>
+                                    Phone:
+                                </h6>
+                                <p>1300 221 480</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 g-0">
+                        <div class="row d-flex flex-row">
+                            <div class="col-md-2 icons  d-flex align-items-center justify-content-center">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="col-md-9 p-2 mt-3 d-flex flex-column">
+                                <h6>
+                                    Email
+                                </h6>
+                                <p>Info@Motoreasy.com.au</p>
+                            </div>
+                        </div>
+                    </div>
 
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-twitter"></i>
-
-                    </div>
                 </div>
             </div>
         </div>
-    </nav>
-    <!-- ================== Header ================== -->
-    <header class="sticky-top top-0 " style="background-color: white;">
-        <nav class="navbar navbar-expand-lg p-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
-                    <h2 class="motor_easy_width">Motor Easy</h2>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse " id="main_nav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about_us.html">About</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Services</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="service-car-warranty.html">Used Car warranty</a></li>
-                                <li><a class="dropdown-item" href="service-inspection.html">vehicle inspection </a></li>
-                                <li><a class="dropdown-item" href="Vehicle-Service.html">Vehicle Service </a></li>
-                                <li><a class="dropdown-item" href="Road-side.html">Road side </a></li>
-                                <li><a class="dropdown-item" href="Battery-Replacement.html">Battery Replacement </a>
-                                </li>
-                                <li><a class="dropdown-item" href="Windscreen-Repair.html">Windscreen Repair</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Pages</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="FAQs.html">FAQs</a></li>
-                                
-                                <li><a class="dropdown-item" href="#">Testimonial </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="Pricing.html">Pricing</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Blogs.html">Blog</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact_us.html">Contact</a></li>
-                        <li class="nav-item mt-2 ms-3 fs-2"><i class="fa fa-map-pin" aria-hidden="true"></i></li>
-                        <li class="nav-item"><button class="ms-4">+92 311 6792100</button></li>
-                    </ul>
+    </section>
+    <!-- ------------- Top Header end- -->
+    <!-- -------------  Header start- -->
+    <div class="second_header sticky-top top-0 ">
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+                        <ul class="navbar-nav  text-light mb-2 mb-lg-0">
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="/index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/about_us.html">About Us</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-link">
+                                        <!-- <a href="/Look For Services/car_services.html">Car Servicing</a> -->
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="/service-car-warranty.html">Used Car warranty </a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="/service-inspection.html">Vehicle inspection </a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="Vehicle-Service.html">Vehicle Service </a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="Road-side.html">Road Side </a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="Battery-Replacement.html">Battery Replacement </a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="Windscreen-Repair.html">Windscreen Repair </a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <!-- <a href="/Look For Services/other_service.html">other service</a> -->
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Pages
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-link">
+                                        <a href="FAQs.html">Faq</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="testimonial.html">Testimonial</a>
+                                    </li>
+
+
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Pricing.html">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Blogs.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/contact_us.html">Contact Us</a>
+                            </li>
+                            <li class="nav-link ms-4 text-light" style="--i: 1.35s">
+                                <i class="fa fa-search mt-2"></i>
+                            </li>
+                        </ul>
+
+
+                    </div>
+                    <div class="log-sign">
+                        <a href="/Sign_in.html"><button class="btn-transparent"> Log in</button></a>
+                        <a href="/Sign_up.html"><button class="btn-solid"> Sign up</button></a>
+                    </div>
                 </div>
-            </div>
-        </nav>
-    </header>
+            </nav>
+        </header>
+    </div>
+    <!---------------- Header End  ------------------->
     <main>
         <section>
             <div class="container-fluid p-0">
@@ -143,10 +218,11 @@
                             </article>
                             <article class="postcard light blue">
                                 <a class="postcard__img_link" href="Blogs_Details.html">
-                                    <img class="postcard__img" src="/assets/images/blog2.webp" alt="Image Title" />	
+                                    <img class="postcard__img" src="/assets/images/blog2.webp" alt="Image Title" />
                                 </a>
                                 <div class="postcard__text t-dark">
-                                    <h1 class="postcard__title blue"><a href="Blogs_Details.html">Is It Safe to Continue Driving with the Check Engine Light On?</a></h1>
+                                    <h1 class="postcard__title blue"><a href="Blogs_Details.html">Is It Safe to Continue
+                                            Driving with the Check Engine Light On?</a></h1>
                                     <div class="postcard__subtitle small">
                                         <time datetime="2020-05-25 12:00:00">
                                             <i class="fas fa-calendar-alt mr-2"></i>Mon, May 27th 2024
@@ -170,7 +246,8 @@
                                     <img class="postcard__img" src="/assets/images/blog3.webp" alt="Image Title" />
                                 </a>
                                 <div class="postcard__text t-dark">
-                                    <h1 class="postcard__title green"><a href="Blogs_Details.html">How Do I Know if My Car Battery is Dead or Just Discharged?</a></h1>
+                                    <h1 class="postcard__title green"><a href="Blogs_Details.html">How Do I Know if My
+                                            Car Battery is Dead or Just Discharged?</a></h1>
                                     <div class="postcard__subtitle small">
                                         <time datetime="2020-05-25 12:00:00">
                                             <i class="fas fa-calendar-alt mr-2"></i>Mon, May 27th 2024
@@ -195,7 +272,8 @@
                                     <img class="postcard__img" src="/assets/images/blog4.webp" alt="Image Title" />
                                 </a>
                                 <div class="postcard__text t-dark">
-                                    <h1 class="postcard__title yellow"><a href="Blogs_Details.html">How to Determine If Your Car Brakes Need Repair or Replacement</a></h1>
+                                    <h1 class="postcard__title yellow"><a href="Blogs_Details.html">How to Determine If
+                                            Your Car Brakes Need Repair or Replacement</a></h1>
                                     <div class="postcard__subtitle small">
                                         <time datetime="2020-05-25 12:00:00">
                                             <i class="fas fa-calendar-alt mr-2"></i>Mon, May 27th 2024
@@ -271,7 +349,7 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-6">
                             <h3>About</h3>
-                             <div>
+                            <div>
                                 <a href="about_us.html"> About Us</a>
                             </div>
                             <div>
